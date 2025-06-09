@@ -1,8 +1,8 @@
 const isProd = Boolean(import.meta.env.PROD)
 
 export const site = {
-  url: 'https://devhints.io',
-  title: 'Devhints.io cheatsheetsa'
+  url: 'https://capu.dev',
+  title: 'capu.dev cheatsheets'
 } as const
 
 export const etc = {
@@ -51,10 +51,10 @@ export const categories = [
 
 export const announcement = {
   id: '2023-12-14',
-  title: `We're on Twitter ♥️`,
+  title: `We're on not Twitter ♥️`,
   body: [
-    `Follow [@devhints](https://twitter.com/devhints) on X/Twitter for daily "today I learned" snippets.`,
+    `Follow [@devhints](https://twitter.com/devhints) on X/Twitter. This website is based on devhints.io.`,
     ``,
-    `Also: I've started a new blog with some insights on web development. Have a look! [**ricostacruz.com/posts**](https://ricostacruz.com/posts?utm_source=devhints)`
+    `Also check his blog [**ricostacruz.com/posts**](https://ricostacruz.com/posts?utm_source=devhints)`
   ].join('\n')
 }
