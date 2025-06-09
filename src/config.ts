@@ -2,36 +2,20 @@ const isProd = Boolean(import.meta.env.PROD)
 
 export const site = {
   url: 'https://devhints.io',
-  title: 'Devhints.io cheatsheets'
+  title: 'Devhints.io cheatsheetsa'
 } as const
 
 export const etc = {
   advertisedSheetCount: 357
 } as const
 
-export const disqus = {
-  enabled: true,
-  host: 'devhints.disqus.com'
-} as const
-
-export const googleAnalytics = {
-  enabled: isProd,
-  measurementId: 'G-N7TC6B227L'
-} as const
-
 export const github = {
-  repositoryUrl: 'https://github.com/rstacruz/cheatsheets',
+  repositoryUrl: 'https://github.com/gcapu/cheatsheets-1',
   branch: 'master'
 } as const
 
 export const urls = {
   newCheatsheetUrl: 'https://github.com/rstacruz/cheatsheets/issues/907'
-} as const
-
-export const carbon = {
-  enabled: false, // isProd,
-  // src: 'https://cdn.carbonads.com/carbon.js?serve=CE7IK5QM&placement=devhintsio'
-  src: 'https://pubsrv.devhints.io/carbon.js?serve=CE7IK5QM&placement=devhintsio'
 } as const
 
 export const categories = [

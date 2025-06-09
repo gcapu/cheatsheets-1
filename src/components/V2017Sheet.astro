@@ -6,7 +6,7 @@ import { render } from '../lib/render'
 import type { SheetPage } from '../lib/page'
 import BaseLayout from './BaseLayout.astro'
 import TopNav from './TopNav.astro'
-import CommentsArea from './V2017Sheet/CommentsArea.astro'
+// import CommentsArea from './V2017Sheet/CommentsArea.astro'
 import SearchFooter from './V2017Sheet/SearchFooter.astro'
 import RelatedPosts from './V2017Sheet/RelatedPosts.astro'
 // import CarbonBox from './V2017/CarbonBox.astro'
@@ -73,7 +73,7 @@ const headingStyles = {
     <header class={headingStyles.root} role="banner">
       <h1 class={headingStyles.h1}>
         <span class={headingStyles.title}>{title}</span>
-        <span class={headingStyles.suffix}> cheatsheet</span>
+        <!-- <span class={headingStyles.suffix}> cheatsheet</span> -->
       </h1>
 
       {/* Publicite */}
@@ -123,7 +123,7 @@ const headingStyles = {
   </div>
 
   <div class="pre-footer" data-js-no-preview><i class="icon"></i></div>
-  <CommentsArea identifier={page.slug} />
+  {/* <CommentsArea identifier={page.slug} /> */}
   <SearchFooter />
   <RelatedPosts page={page} />
 </BaseLayout>
