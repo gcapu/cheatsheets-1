@@ -114,7 +114,7 @@ from = "/sh"
 to = "/bash"
 [build]
 command = "npm run build"
-publish = "_site/"
+publish = "dist/"
 [build.environment]
 NODE_VERSION = "18.12.0"
 PYTHON_VERSION = "3.8"
