@@ -29,7 +29,7 @@ export const urls = {
 } as const
 
 export const carbon = {
-  enabled: isProd,
+  enabled: false, // isProd,
   // src: 'https://cdn.carbonads.com/carbon.js?serve=CE7IK5QM&placement=devhintsio'
   src: 'https://pubsrv.devhints.io/carbon.js?serve=CE7IK5QM&placement=devhintsio'
 } as const
