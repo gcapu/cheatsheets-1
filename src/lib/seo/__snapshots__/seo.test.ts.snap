@@ -3,10 +3,10 @@
 exports[`getSEOPropsForPage() > title only 1`] = `
 {
   "links": {
-    "canonical": "https://devhints.io/react",
+    "canonical": "https://capu.dev/react",
   },
   "meta": {
-    "app:pageurl": "https://devhints.io/react",
+    "app:pageurl": "https://capu.dev/react",
     "description": "The one-page guide to React: usage, examples, links, snippets, and more.",
   },
   "metaProperties": {
@@ -15,10 +15,10 @@ exports[`getSEOPropsForPage() > title only 1`] = `
     "og:image": "https://assets.devhints.io/previews/react.jpg",
     "og:image:height": "471",
     "og:image:width": "900",
-    "og:site_name": "Devhints.io cheatsheets",
+    "og:site_name": "capu.dev cheatsheets",
     "og:title": "React cheatsheet",
     "og:type": "article",
-    "og:url": "https://devhints.io/react",
+    "og:url": "https://capu.dev/react",
     "twitter:description": "The one-page guide to React: usage, examples, links, snippets, and more.",
     "twitter:image": "https://assets.devhints.io/previews/react.jpg",
     "twitter:title": "React cheatsheet",
@@ -30,10 +30,10 @@ exports[`getSEOPropsForPage() > title only 1`] = `
 exports[`getSEOPropsForPage() > with Markdown description 1`] = `
 {
   "links": {
-    "canonical": "https://devhints.io/react",
+    "canonical": "https://capu.dev/react",
   },
   "meta": {
-    "app:pageurl": "https://devhints.io/react",
+    "app:pageurl": "https://capu.dev/react",
     "description": "A React cheatsheet (Markdown text) · One-page guide to React",
   },
   "metaProperties": {
@@ -42,10 +42,10 @@ exports[`getSEOPropsForPage() > with Markdown description 1`] = `
     "og:image": "https://assets.devhints.io/previews/react.jpg",
     "og:image:height": "471",
     "og:image:width": "900",
-    "og:site_name": "Devhints.io cheatsheets",
+    "og:site_name": "capu.dev cheatsheets",
     "og:title": "React cheatsheet",
     "og:type": "article",
-    "og:url": "https://devhints.io/react",
+    "og:url": "https://capu.dev/react",
     "twitter:description": "A React cheatsheet (Markdown text) · One-page guide to React",
     "twitter:image": "https://assets.devhints.io/previews/react.jpg",
     "twitter:title": "React cheatsheet",
@@ -57,10 +57,10 @@ exports[`getSEOPropsForPage() > with Markdown description 1`] = `
 exports[`getSEOPropsForPage() > with description 1`] = `
 {
   "links": {
-    "canonical": "https://devhints.io/react",
+    "canonical": "https://capu.dev/react",
   },
   "meta": {
-    "app:pageurl": "https://devhints.io/react",
+    "app:pageurl": "https://capu.dev/react",
     "description": "A React cheatsheet · One-page guide to React",
   },
   "metaProperties": {
@@ -69,10 +69,10 @@ exports[`getSEOPropsForPage() > with description 1`] = `
     "og:image": "https://assets.devhints.io/previews/react.jpg",
     "og:image:height": "471",
     "og:image:width": "900",
-    "og:site_name": "Devhints.io cheatsheets",
+    "og:site_name": "capu.dev cheatsheets",
     "og:title": "React cheatsheet",
     "og:type": "article",
-    "og:url": "https://devhints.io/react",
+    "og:url": "https://capu.dev/react",
     "twitter:description": "A React cheatsheet · One-page guide to React",
     "twitter:image": "https://assets.devhints.io/previews/react.jpg",
     "twitter:title": "React cheatsheet",
@@ -84,10 +84,10 @@ exports[`getSEOPropsForPage() > with description 1`] = `
 exports[`getSEOPropsForPage() > with description, keywords 1`] = `
 {
   "links": {
-    "canonical": "https://devhints.io/react",
+    "canonical": "https://capu.dev/react",
   },
   "meta": {
-    "app:pageurl": "https://devhints.io/react",
+    "app:pageurl": "https://capu.dev/react",
     "description": "A React cheatsheet · One-page guide to React",
   },
   "metaProperties": {
@@ -96,10 +96,10 @@ exports[`getSEOPropsForPage() > with description, keywords 1`] = `
     "og:image": "https://assets.devhints.io/previews/react.jpg",
     "og:image:height": "471",
     "og:image:width": "900",
-    "og:site_name": "Devhints.io cheatsheets",
+    "og:site_name": "capu.dev cheatsheets",
     "og:title": "React cheatsheet",
     "og:type": "article",
-    "og:url": "https://devhints.io/react",
+    "og:url": "https://capu.dev/react",
     "twitter:description": "A React cheatsheet · One-page guide to React",
     "twitter:image": "https://assets.devhints.io/previews/react.jpg",
     "twitter:title": "React cheatsheet",
@@ -111,10 +111,10 @@ exports[`getSEOPropsForPage() > with description, keywords 1`] = `
 exports[`getSEOPropsForPage() > with keywords 1`] = `
 {
   "links": {
-    "canonical": "https://devhints.io/react",
+    "canonical": "https://capu.dev/react",
   },
   "meta": {
-    "app:pageurl": "https://devhints.io/react",
+    "app:pageurl": "https://capu.dev/react",
     "description": "hooks · components · props · One-page guide to React",
   },
   "metaProperties": {
@@ -123,10 +123,10 @@ exports[`getSEOPropsForPage() > with keywords 1`] = `
     "og:image": "https://assets.devhints.io/previews/react.jpg",
     "og:image:height": "471",
     "og:image:width": "900",
-    "og:site_name": "Devhints.io cheatsheets",
+    "og:site_name": "capu.dev cheatsheets",
     "og:title": "React cheatsheet",
     "og:type": "article",
-    "og:url": "https://devhints.io/react",
+    "og:url": "https://capu.dev/react",
     "twitter:description": "hooks · components · props · One-page guide to React",
     "twitter:image": "https://assets.devhints.io/previews/react.jpg",
     "twitter:title": "React cheatsheet",

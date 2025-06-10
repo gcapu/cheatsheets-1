@@ -99,7 +99,7 @@ test('/sinon', async ({ page }) => {
 
   const payload2 = ldJsonPayloads[1] as JsonLdBreadcrumbList
   expect(payload2.itemListElement[0].item['@id']).toEqual(
-    'https://devhints.io/#javascript-libraries'
+    'https://capu.dev/#javascript-libraries'
   )
 })
 

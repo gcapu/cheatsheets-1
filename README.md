@@ -1,4 +1,4 @@
-<h1 align='center'>Devhints</h1>
+<h1 align='center'>Capu's cheatsheets</h1>
 
 <blockquote align='center'>
 TL;DR for developer documentation - a ridiculous collection of cheatsheets
@@ -7,18 +7,20 @@ TL;DR for developer documentation - a ridiculous collection of cheatsheets
 <br>
 
 <p align='center'>
-<a href='https://devhints.io/'><img src='.github/images/screenshot.png' width=600></a>
+<a href='https://capu.dev/'><img src='.github/images/screenshot.png' width=600></a>
 <br>
-✨ <b><a href='https://devhints.io/'>devhints.io</a></b> ✨
+✨ <b><a href='https://capu.dev/'>capu.dev</a></b> ✨
 </p>
 
 <br>
 
 ---
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for developer notes.
+## Tech Stack
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rstacruz/cheatsheets)
+This website is built with [Astro](https://astro.build), [Tailwind CSS](https://tailwindcss.com), and some [Ruby](https://www.ruby-lang.org/) for Markdown processing. It's deployed on [Netlify](https://www.netlify.com/).
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for developer notes.
 
 <h2 align='center'>Similar projects</h1>
 

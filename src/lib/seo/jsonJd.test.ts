@@ -33,7 +33,7 @@ it('works', () => {
           {
             "@type": "ListItem",
             "item": {
-              "@id": "https://devhints.io/#javascript",
+              "@id": "https://capu.dev/#javascript",
               "name": "JavaScript",
             },
             "position": 1,
@@ -41,7 +41,7 @@ it('works', () => {
           {
             "@type": "ListItem",
             "item": {
-              "@id": "https://devhints.io/react",
+              "@id": "https://capu.dev/react",
               "name": "React cheatsheet",
             },
             "position": 2,
