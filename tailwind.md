@@ -14,6 +14,9 @@ intro: |
   A quick reference for the [Tailwind CSS](https://tailwindcss.com/) utility-first framework. This guide covers the most common classes.
 ---
 
+See also: [Tailwind for Beginners](./tailwind-for-beginners)
+{: .-crosslink}
+
 ## Core Concepts
 {: .-two-column}
 
@@ -56,6 +59,7 @@ Tailwind allows you to style elements in different states using variant prefixes
 The button will have a darker background on hover.
 
 ### Default Breakpoints
+
 | Breakpoint | Value | CSS |
 | --- | --- | --- |
 | `sm` | 640px | `@media (min-width: 640px)` |
