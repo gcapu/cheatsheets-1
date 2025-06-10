@@ -10,7 +10,7 @@ keywords:
   - sizing
   - typography
 intro: |
-  A beginner-friendly introduction to the [Tailwind CSS](https://tailwindcss.com/) utility-first framework. This guide explains what the most common classes do.
+  A beginner-friendly introduction to the [Tailwind CSS](https://tailwindcss.com/) utility-first framework. This guide explains what the most common classes do. AI Generated.
 ---
 
 See also: [Expert Cheatsheet](./tailwind)

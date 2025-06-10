@@ -11,7 +11,7 @@ keywords:
   - sizing
   - typography
 intro: |
-  A quick reference for the [Tailwind CSS](https://tailwindcss.com/) utility-first framework. This guide covers the most common classes.
+  A quick reference for the [Tailwind CSS](https://tailwindcss.com/) utility-first framework. This guide covers the most common classes. AI Generated.
 ---
 
 See also: [Tailwind for Beginners](./tailwind-for-beginners)

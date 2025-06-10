@@ -29,6 +29,8 @@ export async function getPages(): Promise<Record<string, SheetPage>> {
     [
       '../../cheatsheets/*.md',
       '../../cheatsheets/*/*.md',
+      '!../../excluded/*.md',
+      '!../../excluded/*/*.md',
       '!../../README.md',
       '!../../CONTRIBUTING.md',
       '!../../404.md',
