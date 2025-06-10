@@ -1,202 +1,216 @@
 ---
 title: Webpack
 category: JavaScript libraries
-updated: 2017-09-26
+updated: 2024-07-25
 intro: |
-  This is a very basic "getting started with Webpack" guide for use with [Webpack](https://webpack.js.org) v3. This doesn't cover all features, but it should get you started in understanding the config file format.
+  A guide to getting started with [Webpack](https://webpack.js.org) v5+. This covers the basic configuration for bundling your JavaScript, CSS, and other assets.
 ---
 
-### Basic config
+Basic Configuration
+-------------------
 
-#### webpack.config.js
+### Core Concepts
 
-```js
+*   **Entry**: The starting point of your application's dependency graph.
+*   **Output**: Where to emit the bundles and what to name them.
+*   **Loaders**: Process files that are not JavaScript (e.g., CSS, images).
+*   **Plugins**: Perform a wide range of tasks like bundle optimization, asset management, and environment variable injection.
+*   **Mode**: Sets the environment to either `development` or `production`.
+
+### webpack.config.js
+
+A typical Webpack configuration file looks like this:
+
+```javascript
+const path = require('path');
+
 module.exports = {
-  context: __dirname,
-  entry: 'src/app.js',
+  mode: 'development',
+  entry: './src/index.js',
   output: {
-    path: __dirname + '/public',
-    filename: 'app.js'
-  }
-}
-```
-
-#### Terminal
-
-```bash
-npm install --save-dev webpack
-```
-
-| `webpack` | build
-| `webpack -- -p` | build production
-| `webpack -- --watch` | compile continuously
-
-This compiles `src/app.js` into `public/app.js`. (Note: you may need to use `./node_modules/.bin/webpack` as a command if you're not invoking Webpack via npm scripts.)
-
-### Multiple files
-
-#### webpack.config.js
-
-```js
-module.exports = {
-  entry: {
-    app: 'src/app.js',
-    vendor: 'src/vendor.js'
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
   },
-  output: {
-    path: __dirname + '/public',
-    filename: '[name].js'
-  }
-}
+};
 ```
-{: data-line="2,3,4,8"}
 
-This creates `app.js` and `vendor.js`.
+### Running Webpack
 
-## Loaders
-
-### Babel
-
-#### Terminal
+First, install Webpack and the CLI:
 
 ```bash
-npm install --save-dev \
-  babel-loader \
-  babel-preset-env \
-  babel-preset-react
+npm install --save-dev webpack webpack-cli
 ```
 
-#### webpack.config.js
-
-```js
-module.exports = {
-  ···
-  module: {
-    rules: [
-      { test: /\.js$/,
-        exclude: /node_modules/,
-        use: [
-          { loader: 'babel-loader' }
-        ]
-      }
-    ]
-  }
-}
-```
-{: data-line="3,4,5,6,7,8"}
-
-#### .babelrc
-
-```js
-{
-  "presets": [ "env", "react" ]
-}
-```
-
-Adds support for [Babel](http://babeljs.io).
-
-### CSS
-
-#### Terminal
-
-```bash
-npm install --save-dev \
-  css-loader \
-  style-loader
-```
-
-#### webpack.config.js
-
-```js
-module.exports = {
-  ···
-  module: {
-    rules: [
-     { test: /\.css$/,
-       exclude: /node_modules/,
-       use: [
-         { loader: 'style-loader' },
-         { loader: 'css-loader' }
-       ]
-      }
-    ]
-  }
-}
-```
-{: data-line="3,4,5,6,7,8,9"}
-
-#### Your JavaScript
-
-```js
-import './styles.css'
-// or:
-require('./styles.css')
-```
-
-This allows you to use CSS inside your JavaScript. This packages your CSS inside your JavaScript bundle.
-
-### PostCSS
-
-#### Terminal
-
-```
-npm install --save-dev \
-  postcss-loader \
-  postcss-cssnext
-```
-
-#### webpack.config.js
-
-```js
-···
-// Inside module.rules[]:
-{ test: /\.css$/,
-  exclude: /node_modules/,
-  use: [
-    { loader: 'style-loader' },
-    { loader: 'css-loader' },
-    { loader: 'postcss-loader' }
-···
-```
-{: data-line="8"}
-
-#### postcss.config.js
-
-```js
-module.exports = {
-  plugins: [
-    require('postcss-cssnext')()
-  ]
-}
-```
-{: data-line="3"}
-
-This example adds [postcss-cssnext](https://www.npmjs.com/package/postcss-cssnext) support to your CSS files.
-
-## Other features
-
-### Dev server
-
-#### package.json
+Then, add scripts to your `package.json`:
 
 ```json
-{ ···
+{
   "scripts": {
-    "dev": "webpack-dev-server"
+    "build": "webpack",
+    "dev": "webpack --watch"
   }
 }
 ```
-{: data-line="3"}
 
-#### Terminal
+Now you can run `npm run build` to build for development, or `npm run build -- --mode=production` for a production build.
+
+### Multiple Entry Points
+
+To create multiple bundles from separate entry files:
+
+```javascript
+module.exports = {
+  entry: {
+    app: './src/app.js',
+    vendor: './src/vendor.js',
+  },
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: '[name].bundle.js',
+  },
+};
+```
+This configuration will generate `app.bundle.js` and `vendor.bundle.js`.
+
+Loaders
+-------
+{: .-two-column}
+
+### Babel Loader
+
+Processes JavaScript files with Babel.
 
 ```bash
-npm install --save-dev \
-  webpack-dev-server
+npm install --save-dev babel-loader @babel/core @babel/preset-env
 ```
+
+```javascript
+// webpack.config.js
+module.exports = {
+  // ...
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+        },
+      },
+    ],
+  },
+};
+```
+
+Requires a `babel.config.js` in your project root:
+```javascript
+// babel.config.js
+module.exports = {
+  presets: ['@babel/preset-env'],
+};
+```
+
+### CSS and Style Loaders
+
+Processes and injects CSS into the DOM. `css-loader` handles `@import` and `url()`, while `style-loader` injects the CSS into a `<style>` tag.
 
 ```bash
-npm run dev
+npm install --save-dev css-loader style-loader
 ```
 
-This starts an HTTP server for development (port 8080 by default).
+```javascript
+// webpack.config.js
+module.exports = {
+  // ...
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
+};
+```
+Now you can `import './style.css'` in your JavaScript files.
+
+Plugins & Dev Server
+--------------------
+
+### HtmlWebpackPlugin
+
+Generates an HTML file with your bundled JavaScript automatically injected.
+
+```bash
+npm install --save-dev html-webpack-plugin
+```
+
+```javascript
+// webpack.config.js
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+module.exports = {
+  // ...
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'My App',
+      template: 'src/index.html',
+    }),
+  ],
+};
+```
+
+### Webpack Dev Server
+
+A live-reloading development server.
+
+```bash
+npm install --save-dev webpack-dev-server
+```
+
+Add it to your `package.json` scripts:
+```json
+{
+  "scripts": {
+    "start": "webpack serve --open"
+  }
+}
+```
+Now, run `npm start` to launch the dev server.
+
+### PostCSS Loader
+
+To use PostCSS for transformations like autoprefixing:
+
+```bash
+npm install --save-dev postcss-loader postcss-preset-env
+```
+
+```javascript
+// webpack.config.js
+module.exports = {
+  //...
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'postcss-loader'
+        ],
+      },
+    ],
+  },
+};
+```
+Requires a `postcss.config.js`:
+```javascript
+// postcss.config.js
+module.exports = {
+  plugins: [
+    require('postcss-preset-env'),
+  ],
+};
+```
