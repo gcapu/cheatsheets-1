@@ -24,6 +24,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for developer notes.
 
 <h2 align='center'>Similar projects</h1>
 
+- [Devhints (We forked from that project)](https://github.com/rstacruz/cheatsheets)
 - [Command Line Interface Pages](https://github.com/command-line-interface-pages)
 - [tldr-pages](https://github.com/tldr-pages/tldr)
 - [Cheat](https://github.com/cheat/cheat)

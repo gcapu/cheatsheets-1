@@ -27,8 +27,8 @@ class FrontmatterValidationError extends Error {
 export async function getPages(): Promise<Record<string, SheetPage>> {
   const files = import.meta.glob(
     [
-      '../../*.md',
-      '../../*/*.md',
+      '../../cheatsheets/*.md',
+      '../../cheatsheets/*/*.md',
       '!../../README.md',
       '!../../CONTRIBUTING.md',
       '!../../404.md',
@@ -51,8 +51,10 @@ export function mapGlobToPages(
   const result: Record<string, SheetPage> = {}
 
   for (const [filePath, rawContent] of Object.entries(files)) {
-    const slug = filePath.replace(/^\.\.\/\.\.\//, '').replace(/\.md$/, '')
-    // ^ filePath == "../../README.md"
+    const slug = filePath
+      .replace(/^\.\.\/\.\.\/cheatsheets\//, '')
+      .replace(/\.md$/, '')
+    // ^ filePath == "../../cheatsheets/README.md"
 
     const res = grayMatter(rawContent)
     // ^ res == { content: '...', data: {} }

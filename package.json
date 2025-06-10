@@ -6,7 +6,7 @@
   "scripts": {
     "astro": "astro",
     "build": "concurrently -m 1 \"npm:cache_markdown\" \"astro build --silent\"",
-    "cache_markdown": "bundle exec ruby src/ruby/cache_kramdown.rb *.md */*.md",
+    "cache_markdown": "bundle exec ruby src/ruby/cache_kramdown.rb cheatsheets/*.md cheatsheets/*/*.md",
     "ci": "concurrently -g \"npm:*:check\" \"vitest run\" \"npm:test:*\" \"npm:build\"",
     "dev": "astro dev",
     "eslint:check": "eslint .",

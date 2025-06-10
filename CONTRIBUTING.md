@@ -25,7 +25,7 @@ The server will be available at `http://localhost:4321`.
 
 ## Adding a new cheatsheet
 
-To add a new cheatsheet, simply create a new `.md` file in the root of the project. Follow the format of existing cheatsheets like `tailwind.md` or `css.md`.
+To add a new cheatsheet, simply create a new `.md` file in the `cheatsheets/` directory. Follow the format of existing cheatsheets.
 
 ## Testing
 
@@ -108,11 +108,3 @@ Set `description` (and optionally `intro`)
 ### Intro only
 
 If you left out `description` or `keywords`, a default description will be added.
-
-```
-React cheatsheet - devhints.io
-------------------------------
-https://devhints.io/react ▼
-React.Component · render() · componentDidMount() · props/state · React is a
-JavaScript library for building web...
-```
