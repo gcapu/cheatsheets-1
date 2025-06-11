@@ -72,12 +72,12 @@ You can also use the shorter `<>...</>` syntax.
 
 ```jsx
 function UserInfo({ user }) {
-  return (
+    return (
     <>
       <UserAvatar src={user.avatar} />
       <p>{user.name}</p>
     </>
-  )
+    )
 }
 ```
 
