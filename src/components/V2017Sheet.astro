@@ -6,10 +6,8 @@ import { render } from '../lib/render'
 import type { SheetPage } from '../lib/page'
 import BaseLayout from './BaseLayout.astro'
 import TopNav from './TopNav.astro'
-// import CommentsArea from './V2017Sheet/CommentsArea.astro'
 import SearchFooter from './V2017Sheet/SearchFooter.astro'
 import RelatedPosts from './V2017Sheet/RelatedPosts.astro'
-// import CarbonBox from './V2017/CarbonBox.astro'
 import { getSEOPropsForPage } from '~/lib/seo/seo'
 import { getJSONLDsForPage } from '~/lib/seo/jsonLd'
 import SEO from '~/components/SEO/SEO.astro'
@@ -76,8 +74,6 @@ const headingStyles = {
         <!-- <span class={headingStyles.suffix}> cheatsheet</span> -->
       </h1>
 
-      {/* Publicite */}
-      {/* <div class={headingStyles.pubbox} data-js-no-preview><CarbonBox /></div> */}
     </header>
 
     <div class={headingStyles.spacer}></div>

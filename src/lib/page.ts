@@ -28,9 +28,8 @@ export async function getPages(): Promise<Record<string, SheetPage>> {
   const files = import.meta.glob(
     [
       '../../cheatsheets/*.md',
-      '../../cheatsheets/*/*.md',
+      '../../tests/*.md',
       '!../../excluded/*.md',
-      '!../../excluded/*/*.md',
       '!../../README.md',
       '!../../CONTRIBUTING.md',
       '!../../404.md',
@@ -55,6 +54,7 @@ export function mapGlobToPages(
   for (const [filePath, rawContent] of Object.entries(files)) {
     const slug = filePath
       .replace(/^\.\.\/\.\.\/cheatsheets\//, '')
+      .replace(/^\.\.\/\.\.\/tests\//, 'tests/')
       .replace(/\.md$/, '')
     // ^ filePath == "../../cheatsheets/README.md"
 

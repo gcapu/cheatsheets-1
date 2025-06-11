@@ -39,13 +39,13 @@ test('/tests/basic', async ({ page }) => {
       {
         '@type': 'ListItem',
         position: 1,
-        item: { '@id': 'https://devhints.io/#hidden', name: 'Hidden' }
+        item: { '@id': 'https://capu.dev/#hidden', name: 'Hidden' }
       },
       {
         '@type': 'ListItem',
         position: 2,
         item: {
-          '@id': 'https://devhints.io/tests/basic',
+          '@id': 'https://capu.dev/tests/basic',
           name: 'Basic test cheatsheet'
         }
       }
