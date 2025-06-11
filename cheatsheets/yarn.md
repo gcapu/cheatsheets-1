@@ -5,6 +5,8 @@ weight: -3
 updated: 2019-09-30
 prism_languages: [json, bash]
 tags: [Featurable]
+intro: |
+  [Yarn](https://yarnpkg.com/) is a fast, reliable, and secure dependency management tool for JavaScript.
 ---
 
 ### npm equivalents

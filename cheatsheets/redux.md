@@ -3,6 +3,8 @@ title: Redux
 category: React
 updated: 2018-01-17
 weight: -3
+intro: |
+  [Redux](https://redux.js.org/) is a predictable state container for JavaScript apps. It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test.
 ---
 
 ### Creating a store

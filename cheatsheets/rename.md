@@ -1,6 +1,8 @@
 ---
 title: rename
 category: CLI
+intro: |
+  `rename` is a command-line utility for renaming multiple files at once using regular expressions.
 ---
 
 ### Installation
@@ -38,3 +40,4 @@ Replace `.png` with `.jpg.png` in `*.png`.
 ## Also see
 
 - [Rename website](http://plasmasturm.org/code/rename/) _(plasmasturm.org)_
+- [Alternative rename command (Debian/Ubuntu)](https://manpages.debian.org/unstable/rename/rename.1.en.html) _(manpages.debian.org)_

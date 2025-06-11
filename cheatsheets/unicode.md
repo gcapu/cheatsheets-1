@@ -1,5 +1,8 @@
 ---
 title: Unicode symbols
+category: General
+intro: |
+  A collection of commonly used Unicode symbols, along with their character codes and HTML entities.
 ---
 
 ### Symbols

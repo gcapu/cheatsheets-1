@@ -1,12 +1,10 @@
 ---
-title: React-router
+title: React Router (v1)
 category: React
+deprecated: true
+intro: |
+  **Deprecated:** this guide targets an old version of React Router (v1). See the [official documentation](https://reactrouter.com/) for the latest version.
 ---
-
-### About
-{: .-intro}
-
-- <https://reactrouter.com/>
 
 {% raw %}
 

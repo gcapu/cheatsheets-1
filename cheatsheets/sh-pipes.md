@@ -1,6 +1,8 @@
 ---
 title: "Shell: named pipes"
 category: CLI
+intro: |
+  Named pipes (also known as FIFOs) are a powerful shell feature that let you redirect the output of one command to the input of another, without creating temporary files.
 ---
 
 ### Named pipes

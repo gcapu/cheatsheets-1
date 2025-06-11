@@ -2,6 +2,8 @@
 title: tmux
 category: CLI
 updated: 2024-04-08
+intro: |
+  [tmux](https://github.com/tmux/tmux/wiki) is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal.
 ---
 
 ### Commands

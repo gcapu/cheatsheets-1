@@ -8,8 +8,8 @@ authors:
   - github: kolapsys
   - github: samtrion
 updated: 2020-03-10
-description: |
-  Basic cheatsheets for regular expression
+intro: |
+  Basic syntax of regular expressions. For more details, check out [Regex101](https://regex101.com/).
 ---
 
 ## RegExp

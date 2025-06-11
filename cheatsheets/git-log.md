@@ -1,6 +1,8 @@
 ---
 title: git log
 category: Git
+intro: |
+  `git log` shows the commit logs.
 ---
 
 ### Revision ranges

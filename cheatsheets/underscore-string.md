@@ -1,6 +1,9 @@
 ---
 title: Underscore-string
 category: JavaScript libraries
+prism_languages: [js]
+intro: |
+  [Underscore.string](https://github.com/epeli/underscore.string) is a JavaScript library for string manipulation, extending Underscore.js with useful string functions.
 ---
 
 ### Usage

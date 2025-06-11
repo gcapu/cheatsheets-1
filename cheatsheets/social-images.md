@@ -1,5 +1,8 @@
 ---
 title: Social media images
+category: General
+intro: |
+  A quick reference for the optimal image dimensions for various social media platforms.
 ---
 
 ### Facebook

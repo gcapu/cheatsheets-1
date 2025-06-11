@@ -2,6 +2,8 @@
 title: HTML emails
 category: HTML
 updated: 2017-08-30
+intro: |
+  A guide to the fragile world of HTML emails.
 ---
 
 ### Properties to avoid
@@ -58,8 +60,3 @@ Inline your CSS as much as possible.
 ```
 
 `<style>` is supported in the head and body by everything except Gmail. Only use them for responsive styles.
-
-## References
-{: .-one-column}
-
-- [CSS support matrix](https://www.campaignmonitor.com/css/) _campaignmonitor.com_

@@ -3,6 +3,8 @@ title: Web workers
 category: JavaScript
 updated: 2017-10-30
 weight: -1
+intro: |
+  [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) make it possible to run a script operation in a background thread separate from the main execution thread of a web application.
 ---
 
 ## Web workers

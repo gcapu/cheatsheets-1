@@ -1,11 +1,9 @@
 ---
 title: TypeScript
 category: JavaScript libraries
+intro: |
+  [TypeScript](https://www.typescriptlang.org/) is just like ES2015 with type-checking. All ES2015 (classes, etc) should work..
 ---
-
-### About
-
-TypeScript is just like ES2015 with type-checking. All ES2015 (classes, etc) should work.
 
 ### Basic types
 

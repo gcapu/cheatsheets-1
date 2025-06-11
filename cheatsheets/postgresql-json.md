@@ -3,7 +3,12 @@ title: PostgreSQL JSON
 prism_languages: [sql]
 updated: 2018-12-06
 category: Databases
+intro: |
+  PostgreSQL has two JSON data types: `JSON` and `JSONB`. They accept almost identical sets of values as input.
 ---
+
+See also: [PostgreSQL cheatsheet](./postgresql)
+{: .-crosslink}
 
 ## Operators
 

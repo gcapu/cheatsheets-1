@@ -3,6 +3,8 @@ title: SQL joins
 category: Databases
 updated: 2018-12-06
 weight: -1
+intro: |
+  `JOIN` clauses in SQL are used to combine rows from two or more tables.
 ---
 
 ### Example

@@ -2,7 +2,8 @@
 title: top
 category: CLI
 updated: 2020-01-01
-intro: See the processes in your Unix machine.
+intro: |
+  The `top` command displays a real-time view of the running processes in a Unix-like operating system.
 ---
 
 ### Shortcuts

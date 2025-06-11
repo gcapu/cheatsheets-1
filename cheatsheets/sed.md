@@ -2,7 +2,7 @@
 title: sed
 category: CLI
 intro: |
-  Here's some hints on using sed.
+  `sed` (stream editor) is a powerful command-line utility for parsing and transforming text.
 ---
 
 ### Replacements

@@ -1,7 +1,10 @@
 ---
 title: Semver
+category: General
 updated: 2019-12-31
 weight: -3
+intro: |
+  [Semantic Versioning (Semver)](https://semver.org/) is a formal convention for specifying compatibility using a three-part version number: MAJOR.MINOR.PATCH.
 ---
 
 ### Semver

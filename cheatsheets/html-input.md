@@ -3,6 +3,8 @@ title: Input tag
 category: HTML
 updated: 2017-10-30
 weight: -3
+intro: |
+  The `<input>` tag specifies an input field where the user can enter data. See the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) for more.
 ---
 
 ### Input
@@ -105,7 +107,3 @@ weight: -3
 | `type='password'` | <input type='password'> |
 | `type='search'` | <input type='search'> |
 | `type='tel'` | <input type='tel'> |
-
-## Also see
-
- * <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input>

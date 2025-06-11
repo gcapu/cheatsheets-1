@@ -3,6 +3,8 @@ title: Git log format string
 category: Git
 updated: 2017-10-18
 weight: -1
+intro: |
+  A list of placeholders available for `git log --pretty=format:"<string>"`.
 keywords:
   - "git log --pretty=format:%H"
   - "%H - Commit hash"

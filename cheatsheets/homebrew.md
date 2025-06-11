@@ -2,6 +2,8 @@
 title: Homebrew
 weight: -3
 category: CLI
+intro: |
+  [Homebrew](https://brew.sh/) is a free and open-source software package management system that simplifies the installation of software on Apple's macOS operating system and Linux.
 ---
 
 ### Commands

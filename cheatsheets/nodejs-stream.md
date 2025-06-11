@@ -3,6 +3,8 @@ title: Node.js streams
 category: Node.js
 weight: -1
 updated: 2017-08-30
+intro: |
+  Streams are a fundamental concept in Node.js. They are a way to handle reading/writing files, network communications, or any kind of end-to-end information exchange in an efficient way.
 ---
 
 ### Types

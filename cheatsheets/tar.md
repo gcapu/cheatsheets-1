@@ -2,7 +2,8 @@
 title: tar
 category: CLI
 updated: 2022-08-11
-intro: Concatenate, Deflate, Inflate files
+intro: |
+  The `tar` command is used to create and extract archives. It supports a wide variety of compression programs, such as gzip and bzip2.
 ---
 ## Reference
 {:.-two-column}

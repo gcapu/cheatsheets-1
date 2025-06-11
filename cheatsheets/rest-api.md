@@ -1,7 +1,9 @@
 ---
-title: RESTful API
+title: RESTful APIs
 updated: 2019-07-07
 category: API
+intro: |
+  A brief guide to the common conventions and best practices for designing and interacting with RESTful APIs.
 ---
 
 ### Status codes

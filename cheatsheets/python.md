@@ -1,6 +1,8 @@
 ---
 title: Python
 category: Python
+intro: |
+  [Python](https://www.python.org/) is an interpreted, high-level and general-purpose programming language.
 ---
 
 ### Tuples (immutable)

@@ -1,7 +1,12 @@
 ---
 title: PostgreSQL
 category: Databases
+intro: |
+  [PostgreSQL](https://www.postgresql.org/) is a powerful, open source object-relational database system.
 ---
+
+See also: [PostgreSQL JSON functions](./postgresql-json)
+{: .-crosslink}
 
 ### Console
 

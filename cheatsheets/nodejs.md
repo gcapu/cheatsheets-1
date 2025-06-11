@@ -1,6 +1,8 @@
 ---
 title: Node.js API
 category: Node.js
+intro: |
+  [Node.js](https://nodejs.org/api/all.html) is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 ---
 
 ### Globals

@@ -1,6 +1,8 @@
 ---
 title: zsh
 category: CLI
+intro: |
+  [Zsh](https://www.zsh.org/) is a powerful shell that operates as both an interactive shell and as a scripting language interpreter. It is highly compatible with Bash.
 ---
 
 ### Expressions

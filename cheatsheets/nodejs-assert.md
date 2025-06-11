@@ -1,6 +1,8 @@
 ---
 title: assert
 category: Node.js
+intro: |
+  The `assert` module provides a set of assertion functions for verifying invariants.
 ---
 
 ### Assertions

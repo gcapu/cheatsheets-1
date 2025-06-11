@@ -3,6 +3,8 @@ title: npm
 category: JavaScript
 weight: -1
 updated: 2019-12-24
+intro: |
+  `npm` is a package manager for the JavaScript programming language.
 ---
 
 ### Package management

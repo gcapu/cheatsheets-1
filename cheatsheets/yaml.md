@@ -2,6 +2,8 @@
 title: Yaml
 category: Markup
 prism_languages: [yaml]
+intro: |
+  [YAML](https://yaml.org/) is a human-friendly data serialization standard for all programming languages.
 ---
 
 ### Dictionaries and lists

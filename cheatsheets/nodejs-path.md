@@ -1,8 +1,8 @@
 ---
-title: Node.js path API
+title: path
 category: Node.js
 intro: |
-  Quick reference to the [Node.js path API](https://nodejs.org/api/path.html).
+  The `path` module provides utilities for working with file and directory paths. See the [official docs](https://nodejs.org/api/path.html) for more.
 ---
 
 ### Functions
@@ -26,7 +26,3 @@ path.dirname('/etc/passwd') //      => "/etc"
 path.basename('/etc/passwd') //     => "passwd"
 path.basename('/etc/rc.d', '.d') // => "rc"
 ```
-
-### References
-
-- https://nodejs.org/api/path.html

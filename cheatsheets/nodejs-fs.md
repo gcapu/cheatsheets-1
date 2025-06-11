@@ -1,6 +1,8 @@
 ---
 title: fs
 category: Node.js
+intro: |
+  The `fs` module provides an API for interacting with the file system.
 ---
 
 ### Reading

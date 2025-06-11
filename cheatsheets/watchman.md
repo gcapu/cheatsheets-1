@@ -6,6 +6,8 @@ keywords:
 - "watchman watch ~/src"
 - "watchman watch-list"
 - "watchman -- trigger ~/rsc remake '*.js' -- make "
+intro: |
+  [Watchman](https://facebook.github.io/watchman/) is a file watching service that can trigger actions when files change.
 ---
 
 ### Getting started

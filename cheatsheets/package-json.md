@@ -4,6 +4,8 @@ category: Node.js
 prism_languages: [json]
 updated: 2020-06-23
 weight: -3
+intro: |
+  The `package.json` file is the heart of any Node.js project. It's a manifest file that holds various metadata relevant to the project. See the [official docs](https://docs.npmjs.com/cli/v10/configuring-npm/package-json) for more.
 ---
 
 ### Basic
@@ -86,10 +88,3 @@ See [Semver cheatsheet](./semver) for explanation of version ranges.
 ```
 
 Keys in `config` are exposed as env vars to scripts.
-
-## References
-{: .-one-column}
-
- * <http://package.json.nodejitsu.com/>
- * `npm help package.json`
-{: .-also-see}

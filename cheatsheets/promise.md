@@ -1,15 +1,17 @@
 ---
 title: Promises
 category: JavaScript
+intro: |
+  The [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
 ---
 
 ## Reference
 {:.-three-column}
 
-### Introduction
+### Guides
 {: .-intro}
 
-intro: A quick reference to the JavaScript [Promise API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
+A quick reference to the JavaScript [Promise API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
 
 - [Using Promises guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises) _(developer.mozilla.org)_
 - [Promise documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) _(developer.mozilla.org)_

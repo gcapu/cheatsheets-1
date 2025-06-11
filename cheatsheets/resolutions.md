@@ -1,7 +1,10 @@
 ---
 title: Screen resolutions
+category: General
 updated: 2020-07-03
 weight: -1
+intro: |
+  A list of common screen resolutions for various mobile and tablet devices, including device pixel ratio (DPPX) and pixels per inch (PPI).
 ---
 
 ## Resolutions

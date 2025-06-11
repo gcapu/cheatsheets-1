@@ -1,6 +1,8 @@
 ---
 title: process
 category: Node.js
+intro: |
+  The `process` object is a global that provides information about, and control over, the current Node.js process.
 ---
 
 ### Streams

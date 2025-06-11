@@ -78,7 +78,3 @@ $ git unlock config/database.yml
 ```sh
 $ git obliterate secret.yml   # remove all references to it
 ```
-
-### References
-
-- https://github.com/visionmedia/git-extras

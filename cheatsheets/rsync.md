@@ -2,6 +2,8 @@
 title: Rsync
 category: CLI
 weight: -1
+intro: |
+  `rsync` is a utility for efficiently transferring and synchronizing files between a computer and an external hard drive and across a network.
 ---
 
 ### Basic example
@@ -93,3 +95,7 @@ rsync -avz ./src/ /dest
 ```bash
 --delete         # Delete extra files
 ```
+
+### Also see
+
+- [rsync man page](https://linux.die.net/man/1/rsync) _(linux.die.net)_

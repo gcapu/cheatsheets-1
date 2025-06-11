@@ -4,6 +4,8 @@ category: CLI
 updated: 2018-12-25
 authors:
   - github: vastpeng
+intro: |
+  `scp` (secure copy) is a command-line utility that allows you to securely copy files and directories between two locations.
 ---
 
 ### Usage
@@ -12,7 +14,6 @@ authors:
 ```bash
 scp <options> source_path destination_path
 ```
-
 ### Conditions
 
 ```bash
@@ -36,3 +37,4 @@ $ scp user@host:/path/to/file /local/path/to/file         # copying a file from 
 $ scp file1 file2 user@host:/path/to/directory            # copying multiple files using scp command
 $ scp -r /path/to/directory user@host:/path/to/directory  # Copying an entire directory with scp command
 ```
+
