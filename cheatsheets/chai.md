@@ -4,6 +4,8 @@ category: JavaScript libraries
 weight: -3
 updated: 2018-06-25
 version: chai v4.x
+intro: |
+  [Chai](https://www.chaijs.com/) is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
 description: |
   expect(x).to.be.equal(y) 〉 assert.equal(x, y) 〉 .to.be.true 〉 jQuery, assertions, TDD and BDD, and other Chai examples.
 ---

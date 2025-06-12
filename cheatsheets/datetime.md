@@ -3,6 +3,8 @@ title: Date & time formats
 weight: -5
 updated: 2017-11-27
 tags: [Featurable]
+intro: |
+  A reference for the most common date and time formatting standards.
 ---
 
 ## Common time formats

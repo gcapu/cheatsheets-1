@@ -2,6 +2,8 @@
 title: GNU grep
 category: CLI
 updated: 2021-08-23
+intro: |
+  Reference for the GNU grep command, including usage, matching options, pattern types, and practical examples.
 ---
 
 ### Usage
@@ -99,3 +101,4 @@ grep "export" .bash_profile | grep "PATH"
 # and include 5 lines of context
 tail -f server.log | grep -iC 5 error
 ```
+

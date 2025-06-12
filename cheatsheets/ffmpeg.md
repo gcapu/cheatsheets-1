@@ -1,6 +1,8 @@
 ---
 title: ffmpeg
 category: CLI
+intro: |
+  [FFmpeg](https://ffmpeg.org/) is a complete, cross-platform solution to record, convert and stream audio and video.
 ---
 
 ### Common switches

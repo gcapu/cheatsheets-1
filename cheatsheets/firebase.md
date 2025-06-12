@@ -1,7 +1,10 @@
 ---
 title: Firebase
+category: JavaScript
 prism_languages: [coffeescript]
 tags: [WIP]
+intro: |
+  [Firebase](https://firebase.google.com/) is a platform developed by Google for creating mobile and web applications.
 ---
 
 ### Authenticating

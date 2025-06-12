@@ -5,6 +5,8 @@ weight: -3
 tags: [Featured]
 category: C-like
 updated: 2020-06-21
+intro: |
+  A reference for the Go programming language, including syntax, types, common patterns, and useful links.
 ---
 
 ## Getting started

@@ -5,6 +5,8 @@ weight: -3
 updated: 2020-07-05
 description: |
   $ http POST http://example.com name="John" Host:example.com — JSON, cookies, files, auth, and other httpie examples.
+intro: |
+  Reference for HTTPie, a command-line HTTP client, including usage, options, and practical examples.
 ---
 
 ### Introduction

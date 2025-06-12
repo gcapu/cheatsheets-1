@@ -3,7 +3,9 @@ title: docker-compose
 category: Devops
 prism_languages: [yaml]
 weight: -1
-updated: 2024-04-03 
+updated: 2024-04-03
+intro: |
+  [Docker Compose](https://docs.docker.com/compose/) is a tool for defining and running multi-container Docker applications.
 ---
 
 ### Basic example

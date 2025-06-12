@@ -3,6 +3,8 @@ title: expect.js
 category: JavaScript libraries
 updated: 2017-09-02
 weight: -1
+intro: |
+  [expect](https://github.com/mjackson/expect) is a JavaScript testing library for assertions.
 ---
 
 ### Using

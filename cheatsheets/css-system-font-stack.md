@@ -3,6 +3,8 @@ title: "CSS system fonts"
 category: CSS
 weight: -3
 tags: [Featurable]
+intro: |
+  A guide to using native system fonts in CSS for a fast, performant, and native feel.
 ---
 
 ### System fonts

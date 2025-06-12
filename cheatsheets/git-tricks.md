@@ -1,6 +1,8 @@
 ---
 title: Git tricks
 category: Git
+intro: |
+  Useful and lesser-known tips and tricks for working with Git, including refs, branches, submodules, diffs, logs, and more.
 ---
 
 ### Refs

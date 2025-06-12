@@ -3,6 +3,8 @@ title: HTTP Status
 category: API
 description: |
   List of HTTP Status codes and links to description.
+intro: |
+  List of HTTP status codes and their meanings, including informational, success, redirection, client error, and server error responses.
 ---
 
 ### Informational Responses

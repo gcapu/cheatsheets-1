@@ -1,6 +1,8 @@
 ---
 title: GitHub pages
 category: Jekyll
+intro: |
+  [GitHub Pages](https://pages.github.com/) are public webpages for users, organizations, and repositories, freely hosted and easily published through GitHub.
 ---
 
 ## Custom domains

@@ -3,6 +3,8 @@ title: Cron
 category: CLI
 updated: 2024-03-17
 weight: -3
+intro: |
+  [Cron](https://en.wikipedia.org/wiki/Cron) is a time-based job scheduler in Unix-like computer operating systems.
 ---
 
 ## Format

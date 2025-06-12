@@ -2,6 +2,8 @@
 title: Find
 category: CLI
 updated: 2019-11-17
+intro: |
+  The `find` command is a command-line utility for walking a file hierarchy.
 ---
 
 ### Usage

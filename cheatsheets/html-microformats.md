@@ -1,6 +1,8 @@
 ---
 title: Microformats
 category: HTML
+intro: |
+  HTML microformats for embedding author and time metadata in web pages.
 ---
 
 ### Author

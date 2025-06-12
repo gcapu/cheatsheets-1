@@ -3,8 +3,8 @@ title: C# 7
 category: C-like
 updated: 2018-12-06
 prism_languages: [csharp]
-description: |
-  A quick overview of C# 7
+intro: |
+  A summary of the new features available in C# 7.
 ---
 
 ### Out Variables

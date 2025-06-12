@@ -2,6 +2,8 @@
 title: Curl
 category: CLI
 updated: 2020-03-09
+intro: |
+  [cURL](https://curl.se/) is a command-line tool for transferring data with URL syntax.
 ---
 
 ## Options

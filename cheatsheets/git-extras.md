@@ -1,8 +1,8 @@
 ---
-title: Git extras
+title: git-extras
 category: Git
 intro: |
-  Quick reference to some utilities in the [git-extras](https://github.com/tj/git-extras) utilities.
+  [git-extras](https://github.com/tj/git-extras) provides a collection of extra commands for Git.
 ---
 
 ## References

@@ -3,6 +3,8 @@ title: Dockerfile
 category: Devops
 prism_languages: [docker]
 updated: 2019-10-20
+intro: |
+  A [Dockerfile](https://docs.docker.com/engine/reference/builder/) is a text document that contains all the commands a user could call on the command line to assemble an image.
 ---
 
 ## Reference

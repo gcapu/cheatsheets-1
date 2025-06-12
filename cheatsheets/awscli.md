@@ -1,6 +1,8 @@
 ---
 title: AWS CLI
 category: Devops
+intro: |
+  The [AWS Command Line Interface (CLI)](https://aws.amazon.com/cli/) is a unified tool to manage your AWS services.
 ---
 
 ### EC2

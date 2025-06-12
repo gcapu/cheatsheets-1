@@ -3,6 +3,8 @@ title: Bootstrap
 prism_languages: [scss, haml, html]
 weight: -1
 category: CSS
+intro: |
+  [Bootstrap](https.getbootstrap.com) is a popular CSS framework for developing responsive, mobile-first websites.
 description: |
   .container .row .col-md-6, @screen-sm-min, .form-control, grids, .modal-content, tooltips, and other Bootstrap CSS examples.
 ---

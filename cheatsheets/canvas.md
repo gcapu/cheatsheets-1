@@ -1,6 +1,8 @@
 ---
 title: Canvas
 category: JavaScript
+intro: |
+  A reference for the [HTML5 Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API), a JavaScript interface for drawing graphics.
 ---
 
 ### Getting the context

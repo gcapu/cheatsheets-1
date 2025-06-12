@@ -1,6 +1,8 @@
 ---
 title: Frequency separation retouching
 category: Others
+intro: |
+  Frequency separation is a process that gives you independent control over the fine details and the coarse details of an image.
 ---
 
 ### Frequency separation retouching in Photoshop

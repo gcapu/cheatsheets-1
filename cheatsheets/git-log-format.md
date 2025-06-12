@@ -1,10 +1,10 @@
 ---
-title: Git log format string
+title: git-log format
 category: Git
-updated: 2017-10-18
-weight: -1
+tags: [Featurable]
+updated: 2017-10-11
 intro: |
-  A list of placeholders available for `git log --pretty=format:"<string>"`.
+  A reference for the formatting options available for `git log`.
 keywords:
   - "git log --pretty=format:%H"
   - "%H - Commit hash"

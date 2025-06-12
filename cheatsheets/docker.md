@@ -1,6 +1,8 @@
 ---
 title: Docker CLI
 category: Devops
+intro: |
+  [Docker](https://www.docker.com/) is a platform for developing, shipping, and running applications in containers.
 ---
 
 Manage images

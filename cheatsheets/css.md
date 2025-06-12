@@ -2,6 +2,8 @@
 title: CSS
 category: CSS
 weight: -1
+intro: |
+  A quick reference for CSS, covering selectors, properties, and basic concepts.
 keywords:
   - "margin, padding, border"
   - "div, .class, #id, [attr]"

@@ -2,6 +2,8 @@
 title: Awesome Redux
 category: React
 updated: 2017-11-19
+intro: |
+  A curated list of awesome Redux libraries, packages, and resources.
 ---
 
 ### redux-actions

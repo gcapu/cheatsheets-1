@@ -3,6 +3,8 @@ title: HTML meta tags
 category: HTML
 updated: 2020-03-20
 weight: -3
+intro: |
+  Reference for HTML meta tags, OpenGraph, Twitter cards, and web app manifest tags.
 ---
 
 ### Meta tags

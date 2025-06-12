@@ -1,6 +1,8 @@
 ---
 title: CSS tricks
 category: CSS
+intro: |
+  A collection of useful and interesting CSS techniques and effects.
 ---
 
 ### Heading kerning pairs and ligature

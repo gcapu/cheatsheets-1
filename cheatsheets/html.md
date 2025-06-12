@@ -1,6 +1,8 @@
 ---
 title: HTML
 category: HTML
+intro: |
+  Useful HTML tags, meta tags, and browser compatibility tips for web development.
 ---
 
 ### Head stuff

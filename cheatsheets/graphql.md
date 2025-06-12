@@ -2,6 +2,8 @@
 title: GraphQL
 updated: 2019-07-07
 category: API
+intro: |
+  Reference for GraphQL queries, mutations, schemas, types, and usage patterns.
 ---
 
 ## Intro

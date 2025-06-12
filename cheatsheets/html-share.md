@@ -2,6 +2,8 @@
 title: Share links
 category: HTML
 updated: 2017-09-04
+intro: |
+  HTML snippets for sharing links on social media platforms like Facebook, Twitter, and Google Plus.
 ---
 
 ## Share links

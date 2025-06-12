@@ -2,6 +2,8 @@
 title: Git branches
 category: Git
 updated: 2020-02-13
+intro: |
+  A branch in Git is a way to have a separate line of development.
 ---
 
 ## Working with branches

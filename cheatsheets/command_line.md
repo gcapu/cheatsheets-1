@@ -1,5 +1,8 @@
 ---
 title: Command line stuff
+category: CLI
+intro: |
+  A collection of common command-line utilities and their most frequent options.
 ---
 
 ## List (ls)

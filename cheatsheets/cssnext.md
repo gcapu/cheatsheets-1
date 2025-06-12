@@ -4,6 +4,8 @@ category: CSS
 updated: 2017-10-30
 tags: [Featurable]
 weight: -3
+intro: |
+  [cssnext](http://cssnext.io/) is a CSS transpiler that allows you to use future CSS syntax today.
 ---
 
 ### Variables
